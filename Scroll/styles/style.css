@@ -1,0 +1,31 @@
+.divGlobal {
+    height: 150px;
+    overflow-y: hidden;
+    position: relative;
+
+  }
+  
+  #divScroll {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 150px;
+ 
+    background-color: rgb(255, 2, 2);
+  }
+  
+  #scrollElement {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 10px;
+    background-color: whitesmoke;
+  }
+  
+  #scrollElement:hover,
+  #scrollElement:active {
+    background-color:gray;
+  }
+  
